@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Token" --Put You Token Here
+bot_token = "437450588:AAEO3iFPDuQcy9vjE74QIo9y2eMEme2vW50" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 987654321
+sudo_id = 214976329
 require('./bot/methods')
 require('./bot/utils')
 require('./libs/JSON')
@@ -162,7 +162,7 @@ function create_config( )
     "core",
     "plugins"
     },
-    sudo_users = {123456789},--Sudo users
+    sudo_users = {214976329,444311986},--Sudo users
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
